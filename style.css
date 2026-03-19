@@ -1,0 +1,133 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+/* контейнер для каждой анимации */
+.item {
+  margin-bottom: 25px;
+}
+
+/* подпись */
+.item p {
+  margin: 0 0 25px 20px; /* красная строка */
+  font-weight: bold;
+}
+
+/* блок анимации */
+.box {
+  width: 80px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  margin-left: 20px; /* красная строка */
+}
+
+/* 1 Прыжок */
+@keyframes bounce {
+  50% { transform: translateY(-50px); }
+}
+.bounce { animation: bounce 1s infinite; }
+
+/* 2 Вращение */
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+.rotate { animation: rotate 2s infinite linear; }
+
+/* 3 Увеличение */
+@keyframes scale {
+  50% { transform: scale(1.5); }
+}
+.scale { animation: scale 1s infinite; }
+
+/* 4 Прозрачность */
+@keyframes fade {
+  50% { opacity: 0; }
+}
+.fade { animation: fade 2s infinite; }
+
+/* 5 Движение */
+@keyframes move {
+  50% { transform: translateX(100px); }
+}
+.move { animation: move 2s infinite; }
+
+/* 6 Наклон */
+@keyframes skew {
+  50% { transform: skew(20deg); }
+}
+.skew { animation: skew 1s infinite; }
+
+/* 7 Смена цвета */
+@keyframes color {
+  50% { background: blue; }
+}
+.color { animation: color 2s infinite; }
+
+/* 8 Скругление */
+@keyframes border {
+  50% { border-radius: 50%; }
+}
+.border { animation: border 2s infinite; }
+
+/* 9 Тень */
+@keyframes shadow {
+  50% { box-shadow: 0 0 20px black; }
+}
+.shadow { animation: shadow 1s infinite; }
+
+/* 10 Быстрое вращение */
+.spin { animation: rotate 0.5s infinite linear; }
+
+/* 11 Пульсация */
+.pulse { animation: scale 0.5s infinite; }
+
+/* 12 Переворот */
+@keyframes flip {
+  50% { transform: rotateY(180deg); }
+}
+.flip { animation: flip 2s infinite; }
+
+/* 13 Слайд */
+@keyframes slide {
+  50% { margin-left: 50px; }
+}
+.slide { animation: slide 1s infinite; }
+
+/* 14 Волна */
+@keyframes wave {
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+}
+.wave { animation: wave 1s infinite; }
+
+/* 15 Зум */
+.zoom { animation: scale 2s infinite; }
+
+/* 16 Мигание */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.blink { animation: blink 0.5s infinite; }
+
+/* 17 Рост */
+.grow { animation: scale 1.5s infinite; }
+
+/* 18 Сжатие */
+@keyframes shrink {
+  50% { transform: scale(0.5); }
+}
+.shrink { animation: shrink 1s infinite; }
+
+/* 19 Тряска */
+@keyframes shake {
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+.shake { animation: shake 0.3s infinite; }
+
+/* 20 Подпрыгивание */
+@keyframes jump {
+  50% { transform: translateY(-30px); }
+}
+.jump { animation: jump 0.7s infinite; }
