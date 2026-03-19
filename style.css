@@ -20,7 +20,13 @@ body {
   height: 80px;
   background: rgb(0, 0, 0);
   margin-left: 20px;
-  border-radius: 50%;
+  clip-path: polygon(
+    50% 0%, 
+    100% 25%, 
+    100% 75%, 
+    50% 100%, 
+    0% 75%, 
+    0% 25%
 }
 
 /* 1 Прыжок */
@@ -65,9 +71,9 @@ body {
 }
 .color { animation: color 2s infinite; }
 
-/* 8 Углы */
+/* 8 Округлентие */
 @keyframes border {
-  50% { border-radius: 0%; }
+  50% { border-radius: 50%; }
 }
 .border { animation: border 2s infinite; }
 
