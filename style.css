@@ -77,9 +77,12 @@ body {
 
 /* 9 Тень */
 @keyframes shadow {
-  50% { box-shadow: 0 0 20px black; }
+  50% { filter: drop-shadow(0 0 20px black); }
 }
-.shadow { animation: shadow 1s infinite; }
+
+.shadow {
+  animation: shadow 1s infinite;
+}
 
 /* 10 Быстрое вращение */
 .spin { animation: rotate 0.5s infinite linear; }
