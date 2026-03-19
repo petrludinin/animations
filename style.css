@@ -4,7 +4,6 @@ body {
 }
 
 
-
 /* контейнер для каждой анимации */
 .item {
   margin-bottom: 25px;
@@ -16,7 +15,6 @@ body {
   font-weight: bold;
 }
 
-
 /* блок анимации */
 .box {
   width: 80px;
@@ -25,7 +23,6 @@ body {
   margin-left: 20px;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
-
 
 /* 1 Прыжок */
 @keyframes bounce {
