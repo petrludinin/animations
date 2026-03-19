@@ -21,14 +21,7 @@ body {
   height: 80px;
   background: rgb(0, 0, 0);
   margin-left: 20px;
-  clip-path: polygon(
-    50% 0%, 
-    100% 25%, 
-    100% 75%, 
-    50% 100%, 
-    0% 75%, 
-    0% 25%
-    );
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 /* 1 Прыжок */
