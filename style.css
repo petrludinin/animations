@@ -65,7 +65,7 @@ body {
 }
 .color { animation: color 2s infinite; }
 
-/* 8 Скругление */
+/* 8 Углы */
 @keyframes border {
   50% { border-radius: 0%; }
 }
