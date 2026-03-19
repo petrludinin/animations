@@ -10,7 +10,7 @@ body {
 
 /* подпись */
 .item p {
-  margin: 0 0 55px 20px;
+  margin: 15px 0 55px 20px;
   font-weight: bold;
 }
 
