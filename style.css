@@ -3,11 +3,11 @@ body {
   padding: 20px;
 }
 
+
 /* контейнер для каждой анимации */
 .item {
   margin-bottom: 25px;
 }
-
 
 /* подпись */
 .item p {
