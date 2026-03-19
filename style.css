@@ -71,6 +71,7 @@ body {
 }
 .border { animation: border 2s infinite; }
 
+
 /* 9 Тень */
 @keyframes shadow {
   50% { box-shadow: 0 0 20px black; }
