@@ -20,6 +20,7 @@ body {
   height: 80px;
   background: rgb(0, 0, 0);
   margin-left: 20px;
+  border-radius: 50%;
 }
 
 /* 1 Прыжок */
@@ -66,7 +67,7 @@ body {
 
 /* 8 Скругление */
 @keyframes border {
-  50% { border-radius: 50%; }
+  50% { border-radius: 0%; }
 }
 .border { animation: border 2s infinite; }
 
