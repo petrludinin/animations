@@ -19,9 +19,8 @@ body {
 .box {
   width: 80px;
   height: 80px;
-  background: rgb(0, 0, 0);
-  margin-left: 20px;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: coral;
+  margin-left: 20px; /* красная строка */
 }
 
 /* 1 Прыжок */
@@ -66,21 +65,17 @@ body {
 }
 .color { animation: color 2s infinite; }
 
-/* 8 Округлентие */
+/* 8 Скругление */
 @keyframes border {
   50% { border-radius: 50%; }
 }
 .border { animation: border 2s infinite; }
 
-
 /* 9 Тень */
 @keyframes shadow {
-  50% { filter: drop-shadow(0 0 20px black); }
+  50% { box-shadow: 0 0 20px black; }
 }
-
-.shadow {
-  animation: shadow 1s infinite;
-}
+.shadow { animation: shadow 1s infinite; }
 
 /* 10 Быстрое вращение */
 .spin { animation: rotate 0.5s infinite linear; }
